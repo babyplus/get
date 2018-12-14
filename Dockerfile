@@ -1,1 +1,1 @@
-FROM nfvpe/multus:latest
+FROM docker.io/centos/tools:latest
