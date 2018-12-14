@@ -1,1 +1,1 @@
-FROM docker.io/centos/tools:latest
+FROM quay.io/coreos/etcd:latest
