@@ -1,1 +1,1 @@
-FROM quay.io/coreos/etcd:latest
+FROM dougbtv/centos-network
