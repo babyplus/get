@@ -1,1 +1,1 @@
-FROM seafileltd/seafile
+FROM zookeeper:3.4.14
