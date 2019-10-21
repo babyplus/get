@@ -1,1 +1,1 @@
-from k8s.gcr.io/kube-proxy:v1.13.3
+from k8s.gcr.io/pause:3.1 
