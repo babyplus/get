@@ -1,1 +1,1 @@
-from quay.io/coreos/flannel:v0.11.0-amd64
+from k8s.gcr.io/kube-apiserver:v1.13.3
