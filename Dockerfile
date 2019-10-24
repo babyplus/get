@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/coredns:1.3.1
+FROM k8s.gcr.io/etcd:3.3.10
