@@ -22,16 +22,21 @@ gen()
   echo $random.$sw.$version
   return $random.$sw.$version
 }
-for n in ${list[@]}
-do
-  echo FROM $n > Dockerfile
-  tag=`gen $n`
-  git add .
-  git commit -m "release-v$tag $n"
-  git tag release-v$tag
-  git push --tags
-  echo docker pull $registry/get:$tag  >>dockerPull.sh
-  echo docker tag $registry/get:$tag $n  >>dockerTag.sh
-done
 
+main()
+{
+  for n in ${list[@]}
+  do
+    echo FROM $n > Dockerfile
+    tag=`gen $*`
+    git add .
+    git commit -m "release-v$tag $n"
+    git tag release-v$tag
+    git push --tags
+    echo docker pull $registry/get:$tag  >>dockerPull.sh
+    echo docker tag $registry/get:$tag $n  >>dockerTag.sh
+    sleep 30
+  done
+}
 
+main $*
