@@ -1,6 +1,7 @@
 . list.txt
 registry="registry.cn-hangzhou.aliyuncs.com/babyplus"
 echo registry=$registry
+string=""
 
 > dockerPull.sh
 > dockerTag.sh
@@ -8,19 +9,20 @@ echo registry=$registry
 gen()
 {
   random=`echo $RANDOM | md5sum |cut -c 1-5`
-  
+
   var=$1
-  
+
   sw=${var##*/}
-  
+
   version=`echo $sw |awk -F : '{print $2}'`
   version=`echo $version|sed 's/\./_/g'`
-  
+
   sw=`echo $sw|awk -F : '{print $1}'`
   sw=`echo $sw|sed 's/\./_/g'|sed 's/-/_/g'`
-  
+
   echo $random.$sw.$version
-  return $random.$sw.$version
+  string=$random.$sw.$version
+  return 0
 }
 
 main()
@@ -28,7 +30,8 @@ main()
   for n in ${list[@]}
   do
     echo FROM $n > Dockerfile
-    tag=`gen $*`
+    gen $n
+    tag=$string
     git add .
     git commit -m "release-v$tag $n"
     git tag release-v$tag
@@ -40,3 +43,5 @@ main()
 }
 
 main $*
+
+
