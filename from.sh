@@ -28,7 +28,7 @@ main()
   for n in ${list[@]}
   do
     echo FROM $n > Dockerfile
-    tag=`gen $*`
+    tag=`gen $n`
     git add .
     git commit -m "release-v$tag $n"
     git tag release-v$tag
