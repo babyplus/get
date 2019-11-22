@@ -1,1 +1,1 @@
-FROM atlassian/confluence-server:7.1.0
+FROM mysql:5.7
