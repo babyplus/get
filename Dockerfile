@@ -1,1 +1,1 @@
-FROM sysrepo/sysrepo-netopeer2:v1.x.x
+FROM sonatype/nexus3
