@@ -15,3 +15,4 @@ docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:cc24e.k8s_plugins_sri
 docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:67d62.tiller.v2_16_1
 docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:7ca1b.armada.8a1638098f88d92bf799ef4934abe569789b885e-ubuntu_bionic
 docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:d3eb5.n3000_opae.stx_4_0-v1_0_0
+docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:efae9.kubernetes_entrypoint.v0_3_1

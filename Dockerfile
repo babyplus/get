@@ -1,1 +1,1 @@
-FROM quay.io/stackanetes/kubernetes-entrypoint:v0.3.1
+FROM quay.io/k8scsi/snapshot-controller:v2.0.0-rc2
