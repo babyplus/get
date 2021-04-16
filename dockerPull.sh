@@ -5,3 +5,4 @@ docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:cd2cc.kube_proxy.v1_1
 docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:dc140.pause.3_2
 docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:16dfb.etcd.3_4_3-0
 docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:ade4d.coredns.1_6_7
+docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:1c193.cni.v3_12_0
