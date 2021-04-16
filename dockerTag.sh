@@ -12,3 +12,4 @@ docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:5e307.pod2daemon_flexv
 docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:fdcd9.multus.v3_4 docker.io/nfvpe/multus:v3.4
 docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:38c6b.k8s_cni_sriov.stx_3_0-v2_2 docker.io/starlingx/k8s-cni-sriov:stx.3.0-v2.2
 docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:cc24e.k8s_plugins_sriov_network_device.stx_4_0-v3_2-16-g4e0302ae docker.io/starlingx/k8s-plugins-sriov-network-device:stx.4.0-v3.2-16-g4e0302ae
+docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:67d62.tiller.v2_16_1 gcr.io/kubernetes-helm/tiller:v2.16.1
