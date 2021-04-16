@@ -10,3 +10,4 @@ docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:c687a.node.v3_12_0
 docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:6bee2.kube_controllers.v3_12_0
 docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:5e307.pod2daemon_flexvol.v3_12_0
 docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:fdcd9.multus.v3_4
+docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:38c6b.k8s_cni_sriov.stx_3_0-v2_2

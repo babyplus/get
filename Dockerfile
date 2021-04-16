@@ -1,1 +1,1 @@
-FROM docker.io/starlingx/k8s-cni-sriov:stx.3.0-v2.2
+FROM docker.io/starlingx/k8s-plugins-sriov-network-device:stx.4.0-v3.2-16-g4e0302ae
