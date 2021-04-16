@@ -4,3 +4,4 @@ docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:96880.kube_scheduler.v
 docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:cd2cc.kube_proxy.v1_18_1 k8s.gcr.io/kube-proxy:v1.18.1
 docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:dc140.pause.3_2 k8s.gcr.io/pause:3.2
 docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:16dfb.etcd.3_4_3-0 k8s.gcr.io/etcd:3.4.3-0
+docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:ade4d.coredns.1_6_7 k8s.gcr.io/coredns:1.6.7
