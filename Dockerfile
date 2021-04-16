@@ -1,1 +1,1 @@
-FROM quay.io/airshipit/armada:8a1638098f88d92bf799ef4934abe569789b885e-ubuntu_bionic
+FROM docker.io/starlingx/n3000-opae:stx.4.0-v1.0.0

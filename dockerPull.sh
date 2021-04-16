@@ -13,3 +13,4 @@ docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:fdcd9.multus.v3_4
 docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:38c6b.k8s_cni_sriov.stx_3_0-v2_2
 docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:cc24e.k8s_plugins_sriov_network_device.stx_4_0-v3_2-16-g4e0302ae
 docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:67d62.tiller.v2_16_1
+docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:7ca1b.armada.8a1638098f88d92bf799ef4934abe569789b885e-ubuntu_bionic
