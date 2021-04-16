@@ -6,3 +6,4 @@ docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:dc140.pause.3_2 k8s.gc
 docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:16dfb.etcd.3_4_3-0 k8s.gcr.io/etcd:3.4.3-0
 docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:ade4d.coredns.1_6_7 k8s.gcr.io/coredns:1.6.7
 docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:1c193.cni.v3_12_0 quay.io/calico/cni:v3.12.0
+docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:c687a.node.v3_12_0 quay.io/calico/node:v3.12.0
