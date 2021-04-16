@@ -7,3 +7,4 @@ docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:16dfb.etcd.3_4_3-0
 docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:ade4d.coredns.1_6_7
 docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:1c193.cni.v3_12_0
 docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:c687a.node.v3_12_0
+docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:6bee2.kube_controllers.v3_12_0
