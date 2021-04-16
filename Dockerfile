@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/kube-controller-manager:v1.18.1
+FROM quay.io/k8scsi/snapshot-controller:v2.0.0-rc2
