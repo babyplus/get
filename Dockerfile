@@ -1,1 +1,1 @@
-FROM quay.io/k8scsi/snapshot-controller:v2.0.0-rc2
+FROM quay.io/calico/kube-controllers:v3.12.0
