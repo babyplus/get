@@ -1,1 +1,1 @@
-FROM quay.io/calico/kube-controllers:v3.12.0
+FROM k8s.gcr.io/defaultbackend:1.4
