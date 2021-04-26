@@ -1,3 +1,4 @@
 list=(
-quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.23.0
+gcr.io/google_containers/defaultbackend:1.0
+gcr.io/google_containers/hyperkube-amd64:v1.11.6
 )
