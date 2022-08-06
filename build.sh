@@ -7,5 +7,5 @@ string=""
 > dockerPull.sh
 > dockerTag.sh
 
-build_from_file $*
+build $*
 

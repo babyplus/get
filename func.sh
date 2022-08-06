@@ -17,7 +17,7 @@ gen()
   return 0
 }
 
-build_from_file()
+build()
 {
   [ $# -lt 1 ]&&{
     echo
@@ -39,7 +39,7 @@ build_from_file()
   sleep 30
 }
 
-build_from_list()
+accelerate()
 {
   for n in ${list[@]}
   do

@@ -21,5 +21,5 @@ WORKDIR /opt/jshERP-boot
 COPY --from=jarBuilder /root/.m2/repository/com/jsh/jshERP-boot/3.0-SNAPSHOT/jshERP-boot-3.0-SNAPSHOT.jar /opt/jshERP-boot/
 
 EXPOSE 9999
-ENTRYPOINT sh 
+ENTRYPOINT ["java","-jar","jshERP-boot-3.0-SNAPSHOT.jar"] 
 
