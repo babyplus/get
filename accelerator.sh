@@ -8,5 +8,5 @@ string=""
 > dockerPull.sh
 > dockerTag.sh
 
-build_from_list $*
+accelerate $*
 
