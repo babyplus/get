@@ -28,7 +28,6 @@ build_from_file()
     exit 1
   }
   n=$1
-  echo FROM $n > Dockerfile
   gen $n
   tag=$string
   git add .
