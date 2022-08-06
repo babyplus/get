@@ -17,6 +17,29 @@ gen()
   return 0
 }
 
+build_from_file()
+{
+  [ $# -lt 1 ]&&{
+    echo
+    echo USAGE: $0 TARGET_TAG
+    echo
+    echo ...exit
+    echo
+    exit 1
+  }
+  n=$1
+  echo FROM $n > Dockerfile
+  gen $n
+  tag=$string
+  git add .
+  git commit -m "release-v$tag $n"
+  git tag release-v$tag
+  git push --tags
+  echo docker pull $registry/get:$tag  >>dockerPull.sh
+  echo docker tag $registry/get:$tag $n  >>dockerTag.sh
+  sleep 30
+}
+
 build_from_list()
 {
   for n in ${list[@]}

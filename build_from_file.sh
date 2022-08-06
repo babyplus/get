@@ -1,5 +1,4 @@
 . func.sh
-. list.txt
 
 registry="registry.cn-hangzhou.aliyuncs.com/babyplus"
 echo Remote Registry: $registry
@@ -8,5 +7,5 @@ string=""
 > dockerPull.sh
 > dockerTag.sh
 
-build_from_list $*
+build_from_file $*
 
