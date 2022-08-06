@@ -1,11 +1,3 @@
-. list.txt
-registry="registry.cn-hangzhou.aliyuncs.com/babyplus"
-echo registry=$registry
-string=""
-
-> dockerPull.sh
-> dockerTag.sh
-
 gen()
 {
   random=`echo $RANDOM | md5sum |cut -c 1-5`
@@ -25,7 +17,7 @@ gen()
   return 0
 }
 
-main()
+build_from_list()
 {
   for n in ${list[@]}
   do
@@ -41,7 +33,3 @@ main()
     sleep 30
   done
 }
-
-main $*
-
-
