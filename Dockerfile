@@ -21,5 +21,5 @@ RUN rm -rf /usr/share/nginx/html/*
 #RUN mkdir -p /usr/share/nginx/html/discount-web
 COPY --from=NodeBuilder /opt/web/dist/ /usr/share/nginx/html/
 
-EXPOSE 8080
-ENTRYPOINT sh 
+EXPOSE 80
+ENTRYPOINT nginx -g "daemon off;"
