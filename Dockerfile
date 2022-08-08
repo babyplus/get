@@ -1,1 +1,1 @@
-FROM timescale/timescaledb:latest-pg14
+FROM youngting/gmqtt:latest
