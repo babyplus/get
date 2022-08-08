@@ -1,3 +1,8 @@
 list=(
+mysql:5.7.33 
 redis:latest
+youngting/thingspanel-go:test
+youngting/thingspanel-backend-vue:latest
+timescale/timescaledb:latest-pg14
+youngting/gmqtt:latest
 )
