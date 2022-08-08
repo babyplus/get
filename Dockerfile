@@ -1,1 +1,1 @@
-FROM redis:latest
+FROM youngting/thingspanel-go:test
