@@ -1,1 +1,1 @@
-FROM youngting/thingspanel-go:test
+FROM youngting/thingspanel-backend-vue:latest
