@@ -1,1 +1,1 @@
-FROM youngting/thingspanel-backend-vue:latest
+FROM timescale/timescaledb:latest-pg14
