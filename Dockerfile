@@ -1,2 +1,2 @@
-FROM mysql:5.7.33
+FROM redis:latest 
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
