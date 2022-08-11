@@ -19,6 +19,7 @@ FROM openjdk:8u342-slim
 RUN mkdir -p /opt/jshERP-boot
 WORKDIR /opt/jshERP-boot
 COPY --from=jarBuilder /root/.m2/repository/com/jsh/jshERP-boot/3.0-SNAPSHOT/jshERP-boot-3.0-SNAPSHOT.jar /opt/jshERP-boot/
+RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
 EXPOSE 9999
 ENTRYPOINT ["java","-jar","jshERP-boot-3.0-SNAPSHOT.jar"] 
