@@ -1,3 +1,3 @@
-FROM timescale/timescaledb:latest-pg14
+FROM youngting/gmqtt:latest
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
