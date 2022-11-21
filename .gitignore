@@ -1,2 +1,4 @@
 dockerPull.sh
 dockerTag.sh
+*.log
+loop.sh
