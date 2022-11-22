@@ -1,1 +1,1 @@
-FROM node:lts-slim
+FROM redis:7.0.5
