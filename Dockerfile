@@ -1,1 +1,1 @@
-FROM node:19.1.0-slim
+FROM python:3.9.15-slim
