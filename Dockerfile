@@ -1,1 +1,1 @@
-FROM debian:9-slim
+FROM python:3.6
