@@ -1,1 +1,1 @@
-FROM redis:6.2.7
+FROM node:19.1.0-slim
