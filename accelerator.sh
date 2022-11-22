@@ -8,5 +8,5 @@ string=""
 > dockerPull.sh
 > dockerTag.sh
 
-accelerate $*
+accelerate_pro $*
 
