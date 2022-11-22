@@ -57,3 +57,40 @@ accelerate()
     sleep 30
   done
 }
+
+accelerate_pro()
+{
+  for n in ${list[@]}
+  do
+    echo FROM $n > Dockerfile
+    > dockerPull.current.sh
+    > dockerTag.current.sh
+    > dockerPull.previous.sh
+    > dockerTag.previous.sh
+    for l in `seq 0 6`
+    do
+	[ -s dockerPull.previous.sh ] && bash dockerPull.previous.sh && {
+            cat dockerPull.previous.sh >>dockerPull.sh
+            cat dockerTag.previous.sh >>dockerTag.sh
+            break
+        }
+        sleep 10
+	[ -s dockerPull.current.sh ] && bash dockerPull.current.sh && {
+            cat dockerPull.current.sh >>dockerPull.sh
+            cat dockerTag.current.sh >>dockerTag.sh
+            break
+        }
+        gen $n
+        tag=$string
+        git add .
+        git commit -m "release-v$tag $n"
+        git tag release-v$tag
+        git push --tags
+        cp dockerPull.current.sh dockerPull.previous.sh
+        cp dockerTag.current.sh dockerTag.previous.sh
+        echo docker pull $registry/get:$tag >dockerPull.current.sh
+        echo docker tag $registry/get:$tag $n >dockerTag.current.sh
+        sleep 300
+    done
+  done
+}

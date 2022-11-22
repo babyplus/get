@@ -1,3 +1,8 @@
 list=(
-redis:latest
+gcc:9.5.0
+redis:7.0.5
+redis:6.2.7
+node:19.1.0-slim
+python:3.9.15-slim
+openjdk:18.0.2.1
 )
