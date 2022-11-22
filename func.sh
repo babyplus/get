@@ -90,7 +90,8 @@ accelerate_pro()
         cp dockerTag.current.sh dockerTag.previous.sh
         echo docker pull $registry/get:$tag >dockerPull.current.sh
         echo docker tag $registry/get:$tag $n >dockerTag.current.sh
-        sleep 300
+        sleep 3600
     done
+    sleep 10
   done
 }
