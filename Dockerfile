@@ -1,1 +1,1 @@
-FROM nginx:1.23
+FROM openapitools/openapi-generator-cli:v5.2.0
