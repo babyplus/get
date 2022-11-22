@@ -1,3 +1,6 @@
 list=(
-redis:latest
+ubuntu:20.04
+debian:9-slim
+python:3.6
+openjdk:18.0.2.1
 )
