@@ -1,1 +1,1 @@
-FROM afourmy/flask-gentelella:latest
+FROM openjdk:18.0.2.1
