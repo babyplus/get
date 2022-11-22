@@ -1,2 +1,2 @@
-dockerPull.sh
-dockerTag.sh
+dockerPull.*
+dockerTag.*
