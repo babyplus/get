@@ -12,8 +12,10 @@ gen()
   sw=`echo $sw|awk -F : '{print $1}'`
   sw=`echo $sw|sed 's/\./_/g'|sed 's/-/_/g'`
 
-  echo $random.$sw.$version
-  string=$random.$sw.$version
+  today=`date +%y%m%d`
+  
+  echo $today$random.$sw.$version
+  string=$today$random.$sw.$version
   return 0
 }
 
