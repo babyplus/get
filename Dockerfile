@@ -1,1 +1,1 @@
-FROM bitnami/git:2.37.1
+FROM maven:3.2.3-jdk-8u40
