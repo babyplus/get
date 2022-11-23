@@ -1,1 +1,1 @@
-FROM python:3-alpine
+FROM bitnami/git:2.37.1
