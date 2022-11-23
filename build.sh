@@ -8,4 +8,5 @@ string=""
 > dockerTag.sh
 
 build $*
-
+mkdir -p records
+cat dockerPull.sh dockerTag.sh | sort -k 3 > records/`date +%s`
