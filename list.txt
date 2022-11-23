@@ -1,3 +1,10 @@
 list=(
-redis:latest
+ubuntu:20.04
+debian:9-slim
+python:3.6
+nginx:1.23
+openapitools/openapi-generator-cli:v5.2.0
+afourmy/flask-gentelella:latest
+openjdk:18.0.2.1
+pandoc/latex:latest
 )

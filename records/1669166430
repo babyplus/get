@@ -1,0 +1,16 @@
+docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:a2211224f89a.debian.9-slim
+docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:a2211224f89a.debian.9-slim debian:9-slim
+docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:a2211226e8d7.python.3_6
+docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:a2211226e8d7.python.3_6 python:3.6
+docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:a221122c4e6a.ubuntu.20_04
+docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:a221122c4e6a.ubuntu.20_04 ubuntu:20.04
+docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:a2211232059b.openapi_generator_cli.v5_2_0
+docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:a2211232059b.openapi_generator_cli.v5_2_0 openapitools/openapi-generator-cli:v5.2.0
+docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:a22112323462.flask_gentelella.latest
+docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:a22112323462.flask_gentelella.latest afourmy/flask-gentelella:latest
+docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:a22112324baf.openjdk.18_0_2_1
+docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:a22112324baf.openjdk.18_0_2_1 openjdk:18.0.2.1
+docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:a221123ca1e1.latex.latest
+docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:a221123ca1e1.latex.latest pandoc/latex:latest
+docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:a221123f5c48.nginx.1_23
+docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:a221123f5c48.nginx.1_23 nginx:1.23
