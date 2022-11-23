@@ -1,1 +1,1 @@
-FROM node:16.14-alpine3.14
+FROM golang:1.17-alpine
