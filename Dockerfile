@@ -1,1 +1,1 @@
-FROM openjdk:8u342-slim
+FROM node:8.17.0-slim
