@@ -14,8 +14,7 @@ gen()
 
   today=`date +%y%m%d`
   
-  echo $today$random.$sw.$version
-  string=$today$random.$sw.$version
+  string=$today$random.$sw.${version:latest}
   return 0
 }
 
