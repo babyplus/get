@@ -2,6 +2,7 @@ list=(
 kaeff/geojson.io:latest
 v2fly/v2fly-core
 registry:2.8.0
+rancher/novnc:latest
 geonetwork:4.2.0
 geonetwork:3.12.6-postgres
 geonetwork:3.12.6
