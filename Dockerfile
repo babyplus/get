@@ -1,1 +1,1 @@
-FROM geonetwork:4.2.0
+FROM geonetwork:3.12.6-postgres
