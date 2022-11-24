@@ -1,6 +1,5 @@
 list=(
-kaeff/geojson.io:latest
-v2fly/v2fly-core
+v2fly/v2fly-core:v4.45.2
 registry:2.8.0
 rancher/novnc:latest
 geonetwork:4.2.0
