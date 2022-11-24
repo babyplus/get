@@ -1,1 +1,1 @@
-FROM v2fly/v2fly-core
+FROM registry:2.8.0
