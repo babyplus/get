@@ -1,1 +1,1 @@
-FROM registry:2.8.0
+FROM rancher/novnc:latest
