@@ -1,1 +1,1 @@
-FROM kaeff/geojson.io:latest
+FROM v2fly/v2fly-core
