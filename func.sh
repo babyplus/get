@@ -14,7 +14,7 @@ gen()
 
   today=`date +%y%m%d`
   
-  string=$today$random.$sw.${version:latest}
+  string=$today$random.$sw.${version:-latest}
   return 0
 }
 
