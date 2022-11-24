@@ -1,10 +1,8 @@
 list=(
-gcc:4.9
-python:3-alpine
-bitnami/git:2.37.1
-maven:3.2.3-jdk-8u40
-openjdk:8u342-slim
-node:8.17.0-slim
-node:16.14-alpine3.14
-golang:1.17-alpine
+kaeff/geojson.io:latest
+v2fly/v2fly-core
+registry:2.8.0
+geonetwork:4.2.0
+geonetwork:3.12.6-postgres
+geonetwork:3.12.6
 )
