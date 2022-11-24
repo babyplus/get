@@ -1,1 +1,1 @@
-FROM rancher/novnc:latest
+FROM geonetwork:4.2.0
