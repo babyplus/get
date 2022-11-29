@@ -1,1 +1,1 @@
-FROM debian:9
+FROM mysql:5.7.33
