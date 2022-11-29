@@ -37,7 +37,14 @@ build()
   git push --tags
   echo docker pull $registry/get:$tag  >>dockerPull.sh
   echo docker tag $registry/get:$tag $n  >>dockerTag.sh
-  sleep 30
+  sleep 180
+  for n in `seq 0 6`
+  do
+    [ -s dockerPull.sh ] && bash dockerPull.sh && return 0
+    sleep 300
+  done
+  > dockerPull.sh
+  > dockerTag.sh
 }
 
 ###########################################################################################################

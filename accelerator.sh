@@ -10,4 +10,4 @@ string=""
 
 accelerate_pro $*
 mkdir -p records
-cat dockerPull.sh dockerTag.sh | sort -k 3 > records/`date +%s`
+[ -s dockerPull.sh ] && cat dockerPull.sh dockerTag.sh | sort -k 3 > records/`date +%s`
