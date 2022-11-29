@@ -1,1 +1,1 @@
-FROM debian:11-slim
+FROM debian:9
