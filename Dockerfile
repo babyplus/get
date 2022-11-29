@@ -1,1 +1,1 @@
-FROM mysql:5.7.33
+FROM linuxserver/docker-compose:2.13.0-v2
