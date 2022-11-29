@@ -1,0 +1,2 @@
+docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:b221129318fa.gcj.v0_0_1
+docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:b221129318fa.gcj.v0_0_1 gcj:v0.0.1
