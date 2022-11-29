@@ -1,3 +1,7 @@
 list=(
-redis:latest
+debian:11-slim
+debian:9
+mysql:5.7.33
+linuxserver/docker-compose:2.13.0-v2
+mikesplain/telnet
 )
