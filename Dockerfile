@@ -1,1 +1,1 @@
-FROM mikesplain/telnet
+FROM overv/openstreetmap-tile-server
