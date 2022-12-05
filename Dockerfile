@@ -1,1 +1,1 @@
-FROM overv/openstreetmap-tile-server
+FROM gcc:9.5.0

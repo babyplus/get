@@ -1,3 +1,4 @@
 list=(
-overv/openstreetmap-tile-server
+gcc:9.5.0 
+overv/openstreetmap-tile-server:2.2.0
 )
