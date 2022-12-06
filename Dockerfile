@@ -2,7 +2,7 @@ FROM registry-vpc.cn-hangzhou.aliyuncs.com/babyplus/get:a2211240e2f7.git.2_37_1 
 RUN mkdir -p /tmp/src
 WORKDIR /tmp/src
 RUN git clone https://github.com/babyplus/tools.git
-RUN cd dockers && git checkout remotes/origin/CXX_Email_sender
+RUN cd tools && git checkout remotes/origin/CXX_Email_sender
 
 FROM registry-vpc.cn-hangzhou.aliyuncs.com/babyplus/get:a221205cf857.gcc.9_5_0 as Compiler
 COPY --from=SourceDownloader /tmp/src/tools /tmp/src/tools
