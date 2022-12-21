@@ -17,6 +17,17 @@ RUN cd /tmp/src/Base64 && sed s/docker.*g++/g++/g compile.sh | bash && cp *.so /
 RUN cd /tmp/src/tools && sed s/docker.*g++/g++/g compile.sh | bash
 
 FROM registry-vpc.cn-hangzhou.aliyuncs.com/babyplus/get:a2211294b337.debian.11-slim
+RUN cp /etc/apt/sources.list /etc/apt/sources.list.backup
+RUN cat > /etc/apt/sources.list << EOF\
+deb https://mirrors.aliyun.com/debian/ bullseye main non-free contrib\
+deb-src https://mirrors.aliyun.com/debian/ bullseye main non-free contrib\
+deb https://mirrors.aliyun.com/debian-security/ bullseye-security main\
+deb-src https://mirrors.aliyun.com/debian-security/ bullseye-security main\
+deb https://mirrors.aliyun.com/debian/ bullseye-updates main non-free contrib\
+deb-src https://mirrors.aliyun.com/debian/ bullseye-updates main non-free contrib\
+deb https://mirrors.aliyun.com/debian/ bullseye-backports main non-free contrib\
+deb-src https://mirrors.aliyun.com/debian/ bullseye-backports main non-free contrib\
+EOF
 RUN apt-get update
 RUN apt-get -y install libcurl4-openssl-dev
 WORKDIR /usr/app
