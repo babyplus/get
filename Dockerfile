@@ -17,7 +17,7 @@ RUN cd /tmp/src/Base64 && sed s/docker.*g++/g++/g compile.sh | bash && cp *.so /
 RUN cd /tmp/src/tools && sed s/docker.*g++/g++/g compile.sh | bash
 
 FROM registry-vpc.cn-hangzhouu.aliyuncs.com/babyplus/get:a2211294b337.debian.11-slim
-RUN apt-get update
+#RUN apt-get update
 RUN apt-get -y install libcurl4-openssl-dev
 WORKDIR /usr/app
 COPY --from=Compiler /tmp/src/tools/*.so /usr/lib/
