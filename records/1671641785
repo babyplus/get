@@ -1,0 +1,4 @@
+docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:a2212213c831.debian.11_6-slim
+docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:a2212213c831.debian.11_6-slim debian:11.6-slim
+docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:b2212229f776.email_sender.0_0_2
+docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:b2212229f776.email_sender.0_0_2 email_sender:0_0_2

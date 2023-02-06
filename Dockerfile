@@ -1,1 +1,6 @@
-FROM debian:11.6-slim
+FROM node
+
+RUN npm install mdline -g
+
+ENTRYPOINT ["mdline"]
+
