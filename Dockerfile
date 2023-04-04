@@ -1,3 +1,1 @@
-FROM youngting/gmqtt:latest
-RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-
+FROM python:2.7.18-buster
