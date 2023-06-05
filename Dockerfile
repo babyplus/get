@@ -1,3 +1,3 @@
-FROM youngting/gmqtt:latest
-RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-
+FROM registry.cn-hangzhou.aliyuncs.com/babyplus/get:a2211239dd60.python.3-alpine
+RUN pip install uploadserver
+CMD python -m uploadserver
