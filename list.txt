@@ -1,3 +1,3 @@
 list=(
-intel/crypto-reference-stack:1.0
+avenga/net-tools:latest
 )

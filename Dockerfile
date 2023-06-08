@@ -1,1 +1,1 @@
-FROM intel/crypto-reference-stack:1.0
+FROM avenga/net-tools:latest
