@@ -71,3 +71,66 @@ remote: To git@github.com:babyplus/get.git
  * [new tag]         release-va2306279a4cf.geonetwork.4_2_4 -> release-va2306279a4cf.geonetwork.4_2_4
 Error response from daemon: manifest for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a2306277a01b.geonetwork.4_2_4 not found: manifest unknown: manifest unknown
 Error response from daemon: manifest for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a2306279a4cf.geonetwork.4_2_4 not found: manifest unknown: manifest unknown
+[master 8e2a084] release-va2306271558a.geonetwork.4_2_4 geonetwork:4.2.4
+ Committer: root <root@localhost.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 18 insertions(+)
+remote: To git@github.com:babyplus/get.git
+ * [new tag]         release-va2306271558a.geonetwork.4_2_4 -> release-va2306271558a.geonetwork.4_2_4
+Error response from daemon: manifest for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a2306279a4cf.geonetwork.4_2_4 not found: manifest unknown: manifest unknown
+a2306271558a.geonetwork.4_2_4: Pulling from babyplus/get
+f0412dfb1aae: Pulling fs layer
+491508b827d8: Pulling fs layer
+222400e688c1: Pulling fs layer
+ebdc1564c73c: Pulling fs layer
+dc3c6a7de9ff: Pulling fs layer
+b74412b59169: Pulling fs layer
+b4ac873f752a: Pulling fs layer
+e21f9cf8e35d: Pulling fs layer
+52d1f953a71f: Pulling fs layer
+ebdc1564c73c: Waiting
+dc3c6a7de9ff: Waiting
+b74412b59169: Waiting
+b4ac873f752a: Waiting
+e21f9cf8e35d: Waiting
+52d1f953a71f: Waiting
+491508b827d8: Verifying Checksum
+491508b827d8: Download complete
+ebdc1564c73c: Verifying Checksum
+ebdc1564c73c: Download complete
+f0412dfb1aae: Verifying Checksum
+f0412dfb1aae: Download complete
+b74412b59169: Verifying Checksum
+b74412b59169: Download complete
+dc3c6a7de9ff: Verifying Checksum
+dc3c6a7de9ff: Download complete
+b4ac873f752a: Verifying Checksum
+b4ac873f752a: Download complete
+52d1f953a71f: Verifying Checksum
+52d1f953a71f: Download complete
+222400e688c1: Verifying Checksum
+222400e688c1: Download complete
+f0412dfb1aae: Pull complete
+491508b827d8: Pull complete
+222400e688c1: Pull complete
+ebdc1564c73c: Pull complete
+dc3c6a7de9ff: Pull complete
+b74412b59169: Pull complete
+b4ac873f752a: Pull complete
+e21f9cf8e35d: Verifying Checksum
+e21f9cf8e35d: Download complete
+e21f9cf8e35d: Pull complete
+52d1f953a71f: Pull complete
+Digest: sha256:2b446751163256daba234bca950790256709976ab06c8c8ff8771188274f6cdc
+Status: Downloaded newer image for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a2306271558a.geonetwork.4_2_4
+registry.cn-hangzhou.aliyuncs.com/babyplus/get:a2306271558a.geonetwork.4_2_4

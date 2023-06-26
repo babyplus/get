@@ -1,1 +1,1 @@
-FROM geonetwork:4.2.4
+FROM node:lts-alpine3.18
