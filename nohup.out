@@ -1,1 +1,19 @@
 Remote Registry: registry.cn-hangzhou.aliyuncs.com/babyplus
+[master e8b854e] release-va23062764ed1.geonetwork.4_2_4 geonetwork:4.2.4
+ Committer: root <root@localhost.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 9 insertions(+), 4 deletions(-)
+ create mode 100644 nohup.out
+remote: To git@github.com:babyplus/get.git
+ * [new tag]         release-va23062764ed1.geonetwork.4_2_4 -> release-va23062764ed1.geonetwork.4_2_4
+Error response from daemon: manifest for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a23062764ed1.geonetwork.4_2_4 not found: manifest unknown: manifest unknown
