@@ -134,3 +134,40 @@ e21f9cf8e35d: Pull complete
 Digest: sha256:2b446751163256daba234bca950790256709976ab06c8c8ff8771188274f6cdc
 Status: Downloaded newer image for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a2306271558a.geonetwork.4_2_4
 registry.cn-hangzhou.aliyuncs.com/babyplus/get:a2306271558a.geonetwork.4_2_4
+[master 733f21d] release-va230627c3869.node.lts-alpine3_18 node:lts-alpine3.18
+ Committer: root <root@localhost.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 64 insertions(+), 1 deletion(-)
+remote: To git@github.com:babyplus/get.git
+ * [new tag]         release-va230627c3869.node.lts-alpine3_18 -> release-va230627c3869.node.lts-alpine3_18
+a230627c3869.node.lts-alpine3_18: Pulling from babyplus/get
+31e352740f53: Pulling fs layer
+560412e561fb: Pulling fs layer
+02735cb6c78b: Pulling fs layer
+86d562f7b855: Pulling fs layer
+86d562f7b855: Waiting
+02735cb6c78b: Verifying Checksum
+02735cb6c78b: Download complete
+31e352740f53: Verifying Checksum
+31e352740f53: Download complete
+86d562f7b855: Verifying Checksum
+86d562f7b855: Download complete
+31e352740f53: Pull complete
+560412e561fb: Verifying Checksum
+560412e561fb: Download complete
+560412e561fb: Pull complete
+02735cb6c78b: Pull complete
+86d562f7b855: Pull complete
+Digest: sha256:5982137da05aa1cdb08539698e18c170696df6a0eb79909b7f044cca5178f90d
+Status: Downloaded newer image for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a230627c3869.node.lts-alpine3_18
+registry.cn-hangzhou.aliyuncs.com/babyplus/get:a230627c3869.node.lts-alpine3_18
