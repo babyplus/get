@@ -1,1 +1,1 @@
-FROM linuxserver/plex:arm64v8-1.32.4
+FROM linuxserver/plex:amd64-1.32.4

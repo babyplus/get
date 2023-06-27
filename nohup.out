@@ -444,3 +444,31 @@ c1d7dcb6995a: Pull complete
 Digest: sha256:29b31d97e227c3710a719a09c11d07da03bb4417af89428d32015c7811a486c6
 Status: Downloaded newer image for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a230627b7f35.openapi_generator_cli.v6_6_0
 registry.cn-hangzhou.aliyuncs.com/babyplus/get:a230627b7f35.openapi_generator_cli.v6_6_0
+[master 52c44cb] release-va2306279edb7.plex.arm64v8-1_32_4 linuxserver/plex:arm64v8-1.32.4
+ Committer: root <root@localhost.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 59 insertions(+), 1 deletion(-)
+remote: To git@github.com:babyplus/get.git
+ * [new tag]         release-va2306279edb7.plex.arm64v8-1_32_4 -> release-va2306279edb7.plex.arm64v8-1_32_4
+a2306279edb7.plex.arm64v8-1_32_4: Pulling from babyplus/get
+f12cfbd5f9ba: Already exists
+8bc286c87514: Already exists
+f50d93bd3fbf: Already exists
+bddd488b7f07: Already exists
+243eac7e14a1: Already exists
+abd670e8c086: Already exists
+32f54e430e20: Already exists
+149304a00768: Already exists
+Digest: sha256:ff7ba1b28e80e97199dd9bb34ee969d2d2010e05d252c37537f5e8a38e352abb
+Status: Downloaded newer image for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a2306279edb7.plex.arm64v8-1_32_4
+registry.cn-hangzhou.aliyuncs.com/babyplus/get:a2306279edb7.plex.arm64v8-1_32_4
