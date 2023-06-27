@@ -171,3 +171,60 @@ a230627c3869.node.lts-alpine3_18: Pulling from babyplus/get
 Digest: sha256:5982137da05aa1cdb08539698e18c170696df6a0eb79909b7f044cca5178f90d
 Status: Downloaded newer image for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a230627c3869.node.lts-alpine3_18
 registry.cn-hangzhou.aliyuncs.com/babyplus/get:a230627c3869.node.lts-alpine3_18
+[master 0e544ec] release-va23062711167.node.lts-bullseye node:lts-bullseye
+ Committer: root <root@localhost.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 38 insertions(+), 1 deletion(-)
+remote: To git@github.com:babyplus/get.git
+ * [new tag]         release-va23062711167.node.lts-bullseye -> release-va23062711167.node.lts-bullseye
+a23062711167.node.lts-bullseye: Pulling from babyplus/get
+93c2d578e421: Pulling fs layer
+c87e6f3487e1: Pulling fs layer
+65b4d59f9aba: Pulling fs layer
+d7edca23d42b: Pulling fs layer
+25c206b29ffe: Pulling fs layer
+bdf1a95618f6: Pulling fs layer
+b4675c226ed3: Pulling fs layer
+dfbe26d2f5fc: Pulling fs layer
+d7edca23d42b: Waiting
+25c206b29ffe: Waiting
+bdf1a95618f6: Waiting
+b4675c226ed3: Waiting
+dfbe26d2f5fc: Waiting
+c87e6f3487e1: Verifying Checksum
+c87e6f3487e1: Download complete
+93c2d578e421: Verifying Checksum
+93c2d578e421: Download complete
+65b4d59f9aba: Verifying Checksum
+65b4d59f9aba: Download complete
+25c206b29ffe: Verifying Checksum
+25c206b29ffe: Download complete
+b4675c226ed3: Verifying Checksum
+b4675c226ed3: Download complete
+dfbe26d2f5fc: Verifying Checksum
+dfbe26d2f5fc: Download complete
+bdf1a95618f6: Verifying Checksum
+bdf1a95618f6: Download complete
+93c2d578e421: Pull complete
+c87e6f3487e1: Pull complete
+d7edca23d42b: Verifying Checksum
+d7edca23d42b: Download complete
+65b4d59f9aba: Pull complete
+d7edca23d42b: Pull complete
+25c206b29ffe: Pull complete
+bdf1a95618f6: Pull complete
+b4675c226ed3: Pull complete
+dfbe26d2f5fc: Pull complete
+Digest: sha256:d0c8b4e05f29e534d96cc4fccc452d80f3c2702cbe610e97503def62571d8b40
+Status: Downloaded newer image for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a23062711167.node.lts-bullseye
+registry.cn-hangzhou.aliyuncs.com/babyplus/get:a23062711167.node.lts-bullseye
