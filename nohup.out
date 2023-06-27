@@ -228,3 +228,20 @@ dfbe26d2f5fc: Pull complete
 Digest: sha256:d0c8b4e05f29e534d96cc4fccc452d80f3c2702cbe610e97503def62571d8b40
 Status: Downloaded newer image for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a23062711167.node.lts-bullseye
 registry.cn-hangzhou.aliyuncs.com/babyplus/get:a23062711167.node.lts-bullseye
+[master b1bcdaf] release-va2306276bdfd.node.lts-bullseye-slim node:lts-bullseye-slim
+ Committer: root <root@localhost.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 58 insertions(+), 1 deletion(-)
+remote: To git@github.com:babyplus/get.git
+ * [new tag]         release-va2306276bdfd.node.lts-bullseye-slim -> release-va2306276bdfd.node.lts-bullseye-slim
+Error response from daemon: manifest for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a2306276bdfd.node.lts-bullseye-slim not found: manifest unknown: manifest unknown
