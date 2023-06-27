@@ -1,1 +1,1 @@
-FROM openapitools/openapi-generator-cli:v6.6.0
+FROM linuxserver/plex:arm64v8-1.32.4

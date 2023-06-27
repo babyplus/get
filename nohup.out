@@ -386,3 +386,61 @@ remote: To git@github.com:babyplus/get.git
  * [new tag]         release-va23062749457.openapi_generator_cli.v6_6_0 -> release-va23062749457.openapi_generator_cli.v6_6_0
 Error response from daemon: manifest for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a230627cd564.openapi_generator_cli.v6_6_0 not found: manifest unknown: manifest unknown
 Error response from daemon: manifest for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a23062749457.openapi_generator_cli.v6_6_0 not found: manifest unknown: manifest unknown
+[master 34c459a] release-va230627b7f35.openapi_generator_cli.v6_6_0 openapitools/openapi-generator-cli:v6.6.0
+ Committer: root <root@localhost.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 18 insertions(+)
+remote: To git@github.com:babyplus/get.git
+ * [new tag]         release-va230627b7f35.openapi_generator_cli.v6_6_0 -> release-va230627b7f35.openapi_generator_cli.v6_6_0
+Error response from daemon: manifest for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a23062749457.openapi_generator_cli.v6_6_0 not found: manifest unknown: manifest unknown
+a230627b7f35.openapi_generator_cli.v6_6_0: Pulling from babyplus/get
+7e6a53d1988f: Pulling fs layer
+4fe4e1c58b4a: Pulling fs layer
+cc915d298757: Pulling fs layer
+0f795594794c: Pulling fs layer
+6cd61a4b7a06: Pulling fs layer
+62acc5f6f7aa: Pulling fs layer
+113abc1c08e0: Pulling fs layer
+c1d7dcb6995a: Pulling fs layer
+0f795594794c: Waiting
+6cd61a4b7a06: Waiting
+62acc5f6f7aa: Waiting
+113abc1c08e0: Waiting
+c1d7dcb6995a: Waiting
+4fe4e1c58b4a: Verifying Checksum
+4fe4e1c58b4a: Download complete
+cc915d298757: Verifying Checksum
+cc915d298757: Download complete
+6cd61a4b7a06: Verifying Checksum
+6cd61a4b7a06: Download complete
+0f795594794c: Verifying Checksum
+0f795594794c: Download complete
+7e6a53d1988f: Verifying Checksum
+7e6a53d1988f: Download complete
+113abc1c08e0: Verifying Checksum
+113abc1c08e0: Download complete
+c1d7dcb6995a: Verifying Checksum
+c1d7dcb6995a: Download complete
+62acc5f6f7aa: Verifying Checksum
+62acc5f6f7aa: Download complete
+7e6a53d1988f: Pull complete
+4fe4e1c58b4a: Pull complete
+cc915d298757: Pull complete
+0f795594794c: Pull complete
+6cd61a4b7a06: Pull complete
+62acc5f6f7aa: Pull complete
+113abc1c08e0: Pull complete
+c1d7dcb6995a: Pull complete
+Digest: sha256:29b31d97e227c3710a719a09c11d07da03bb4417af89428d32015c7811a486c6
+Status: Downloaded newer image for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a230627b7f35.openapi_generator_cli.v6_6_0
+registry.cn-hangzhou.aliyuncs.com/babyplus/get:a230627b7f35.openapi_generator_cli.v6_6_0
