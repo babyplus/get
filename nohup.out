@@ -368,3 +368,21 @@ After doing this, you may fix the identity used for this commit with:
 remote: To git@github.com:babyplus/get.git
  * [new tag]         release-va230627cd564.openapi_generator_cli.v6_6_0 -> release-va230627cd564.openapi_generator_cli.v6_6_0
 Error response from daemon: manifest for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a230627cd564.openapi_generator_cli.v6_6_0 not found: manifest unknown: manifest unknown
+[master d3f2de5] release-va23062749457.openapi_generator_cli.v6_6_0 openapitools/openapi-generator-cli:v6.6.0
+ Committer: root <root@localhost.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 17 insertions(+)
+remote: To git@github.com:babyplus/get.git
+ * [new tag]         release-va23062749457.openapi_generator_cli.v6_6_0 -> release-va23062749457.openapi_generator_cli.v6_6_0
+Error response from daemon: manifest for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a230627cd564.openapi_generator_cli.v6_6_0 not found: manifest unknown: manifest unknown
+Error response from daemon: manifest for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a23062749457.openapi_generator_cli.v6_6_0 not found: manifest unknown: manifest unknown
