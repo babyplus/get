@@ -281,3 +281,21 @@ remote: To git@github.com:babyplus/get.git
  * [new tag]         release-va23062748d0a.node.lts-bullseye-slim -> release-va23062748d0a.node.lts-bullseye-slim
 Error response from daemon: manifest for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a230627e2852.node.lts-bullseye-slim not found: manifest unknown: manifest unknown
 Error response from daemon: manifest for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a23062748d0a.node.lts-bullseye-slim not found: manifest unknown: manifest unknown
+[master fa2fcce] release-va2306278bfb7.node.lts-bullseye-slim node:lts-bullseye-slim
+ Committer: root <root@localhost.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 18 insertions(+)
+remote: To git@github.com:babyplus/get.git
+ * [new tag]         release-va2306278bfb7.node.lts-bullseye-slim -> release-va2306278bfb7.node.lts-bullseye-slim
+Error response from daemon: manifest for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a23062748d0a.node.lts-bullseye-slim not found: manifest unknown: manifest unknown
+Error response from daemon: manifest for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a2306278bfb7.node.lts-bullseye-slim not found: manifest unknown: manifest unknown
