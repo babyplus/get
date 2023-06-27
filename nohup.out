@@ -351,3 +351,20 @@ After doing this, you may fix the identity used for this commit with:
  1 file changed, 18 insertions(+)
 remote: To git@github.com:babyplus/get.git
  * [new tag]         release-va230627e8e6c.node.lts-bullseye-slim -> release-va230627e8e6c.node.lts-bullseye-slim
+[master 86ac561] release-va230627cd564.openapi_generator_cli.v6_6_0 openapitools/openapi-generator-cli:v6.6.0
+ Committer: root <root@localhost.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 17 insertions(+), 1 deletion(-)
+remote: To git@github.com:babyplus/get.git
+ * [new tag]         release-va230627cd564.openapi_generator_cli.v6_6_0 -> release-va230627cd564.openapi_generator_cli.v6_6_0
+Error response from daemon: manifest for registry.cn-hangzhou.aliyuncs.com/babyplus/get:a230627cd564.openapi_generator_cli.v6_6_0 not found: manifest unknown: manifest unknown
