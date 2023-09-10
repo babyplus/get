@@ -1,3 +1,1 @@
-FROM youngting/gmqtt:latest
-RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-
+FROM jgraph/drawio:21.7.4
