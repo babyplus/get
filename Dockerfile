@@ -1,1 +1,1 @@
-FROM mono:6.12.0.182-slim
+FROM mcr.microsoft.com/dotnet/sdk:8.0
