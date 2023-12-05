@@ -1,1 +1,3 @@
-FROM mcr.microsoft.com/dotnet/runtime:6.0
+FROM alpine:3.18.5
+RUN apk update
+RUN apk add --no-cache gawk 
