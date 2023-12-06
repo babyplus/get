@@ -1,0 +1,2 @@
+docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:b2312055608e.gawk.5_2_2
+docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:b2312055608e.gawk.5_2_2 gawk:5.2.2

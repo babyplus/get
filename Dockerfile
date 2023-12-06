@@ -1,3 +1,1 @@
-FROM alpine:3.18.5
-RUN apk update
-RUN apk add --no-cache gawk 
+FROM archlinux:base-20231112.0.191179
