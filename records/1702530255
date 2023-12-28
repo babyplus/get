@@ -1,0 +1,2 @@
+docker pull registry.cn-hangzhou.aliyuncs.com/babyplus/get:a231214b7a39.mariadb.10_11_6-jammy
+docker tag registry.cn-hangzhou.aliyuncs.com/babyplus/get:a231214b7a39.mariadb.10_11_6-jammy mariadb:10.11.6-jammy
