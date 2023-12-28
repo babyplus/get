@@ -1,3 +1,4 @@
 list=(
-mariadb:10.11.6-jammy
+archlinux:base-devel-20231112.0.191179
+archlinux:base-20231112.0.191179
 )
