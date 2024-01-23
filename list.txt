@@ -1,4 +1,4 @@
 list=(
-archlinux:base-devel-20231112.0.191179
-archlinux:base-20231112.0.191179
+archlinux:base-devel-20240101.0.204074
+archlinux:base-20240101.0.204074
 )
