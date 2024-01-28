@@ -1,3 +1,1 @@
-FROM youngting/gmqtt:latest
-RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-
+FROM frrouting/frr:v8.4.0
